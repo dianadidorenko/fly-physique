@@ -136,8 +136,8 @@ const MembershipSlider = () => {
       className="min-h-[680px]"
     >
       {membershipData.map((item, index) => (
-        <div>
-          <SwiperSlide key={index}>
+        <div key={index}>
+          <SwiperSlide>
             <div className="border border-accent hover:bg-primary-300/80 transition-all duration-300 w-full max-w-sm xl:max-w-none mx-auto">
               <div className="py-5 px-[60px] border-b border-accent">
                 <h4 className="h4">{item.title}</h4>
